@@ -1,0 +1,78 @@
+.row {
+    width: 80%;
+    height: 800px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: center;
+
+}
+
+.col{
+
+    background-color: whitesmoke;
+    border: 1px solid black;
+   
+    
+
+    
+    
+    
+
+}
+
+.row .col:nth-child(1) {
+
+    width: 400px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+
+.row .col:nth-child(2) {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    background-color: whitesmoke;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.row .col:nth-child(3) {
+
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+img {
+    width: 100%;
+
+    height: 400px;
+}
+.dat{
+    color: green;
+}
+
+button{
+    text-align: center;
+    color: white;
+    
+    background:green;
+  
+}
+.calender{
+    color: green;
+}

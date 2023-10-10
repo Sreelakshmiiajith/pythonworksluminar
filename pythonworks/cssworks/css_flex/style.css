@@ -1,0 +1,15 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(135, 116, 116);
+    border: 1px solid black;
+
+}

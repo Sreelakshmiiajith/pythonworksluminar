@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color:purple
+}
+#first{
+    color: blueviolet;
+}
+#second{
+    color: green;
+}
+.item{
+    color: red;
+}
+.item2{
+    color: blueviolet;
+}
+.item2{
+    text-decoration: underline;
+    text-decoration-color: chartreuse   ;
+}
+.item3{
+    color: palevioletred;
+}
+.item4{
+    color:black ;
+}
+.list-item{
+    text-decoration: underline;
+}
+.main-head{
+    color: royalblue;
+}
+.main-head h1:nth-child(1){
+    color: darkgreen;
+
+}
